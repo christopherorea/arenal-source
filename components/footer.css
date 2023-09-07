@@ -1,0 +1,141 @@
+.footer-container {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: 20%;
+  padding-right: 20%;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #383D3D;
+}
+.footer-container1 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-image {
+  width: 50px;
+  object-fit: cover;
+}
+.footer-image1 {
+  width: 50px;
+  object-fit: cover;
+}
+.footer-image2 {
+  width: 50px;
+  object-fit: cover;
+}
+.footer-image3 {
+  width: 50px;
+  object-fit: cover;
+}
+.footer-image4 {
+  width: 50px;
+  object-fit: cover;
+}
+.footer-container2 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.footer-container3 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-text {
+  color: rgb(0, 0, 0);
+}
+.footer-text1 {
+  color: var(--dl-color-gray-white);
+}
+.footer-text2 {
+  color: #000000;
+}
+.footer-text3 {
+  color: var(--dl-color-gray-white);
+}
+.footer-text4 {
+  color: var(--dl-color-gray-white);
+}
+.footer-container4 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-text5 {
+  color: #ffffff;
+  align-self: center;
+}
+
+.footer-image6 {
+  width: 50px;
+  object-fit: cover;
+}
+.footer-image7 {
+  width: 50px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .footer-container {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .footer-container1 {
+    gap: var(--dl-space-space-halfunit);
+    flex-wrap: wrap;
+  }
+  .footer-container2 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-container3 {
+    width: 100%;
+  }
+  .footer-container4 {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .footer-container1 {
+    gap: var(--dl-space-space-halfunit);
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
